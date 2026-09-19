@@ -22,6 +22,19 @@ For a problem report, include your iPhone or iPad model, iOS/iPadOS version, Lux
 - **Save a color:** use Add to Favorites in the color picker or eyedropper. Favorites are stored on the device. Deleting the app can remove local favorites and settings.
 - **Change the language:** open the information button and choose a language in the app's language menu.
 
+### Studio in Lux 3.0
+
+Open **Studio** to use saved scenes, light shapes, cinema effects, light painting, the photo palette, selfie mirror, nearby light control, and the lighting coach.
+
+- **Saved scenes:** save the current lighting setup with a name, then select it from Studio to recall it. Scenes and settings are stored on the device. Deleting the app can remove them.
+- **Shapes and effects:** choose a lighting shape or cinema effect, adjust the preview, and start the light. Moving light-painting patterns are intended to be photographed with a separate camera using a long exposure; Lux does not record that photograph itself.
+- **Palette from a photo:** choose or take a photo, select a resulting color, and save it as a scene. The image is processed on the device.
+- **Selfie mirror:** allow camera access, adjust the fill-light border, and use the shutter or three-second countdown. After capture, choose Retake, Share, or Save Photo. Saving to Photos requests permission to add images; it does not give Lux access to your entire photo library.
+- **Nearby lights:** open Lux on each device and keep Studio visible. Choose the light role on the devices that will illuminate the scene. Choose the controller role on the main device, select a discovered device, and enter its six-digit code. Select connected lights, then use Send to Lights after changing the desired Studio settings. Settings are sent when you press the button. Device names are visible during discovery before pairing. Allow Local Network access; keep Wi-Fi and Bluetooth enabled. If discovery or pairing fails, disconnect, open both roles again, and use the new code. Backgrounding the app or leaving Studio ends the connection.
+- **Lighting coach:** choose a purpose and optionally add a room or portrait photo. The initial layout is labelled Template. Drag the markers or open a light's controls to adjust position, color temperature, and brightness. Save an individual light as a scene, or prepare the plan and use Share to export an image.
+- **Photo analysis:** the optional local Qwen model needs a one-time download of approximately 1.75 GB, a supported device with at least 8 GB of RAM, and enough free memory for analysis. Open Local Model in the coach to download or delete it. Keep the app open while downloading and analysing. If interrupted, start the download again; already verified files can be reused. If analysis cannot run, close other memory-intensive apps and try again, or use the editable templates. Analysis runs locally; photos are not uploaded to the model host.
+- **Interpreting a plan:** suggestions are approximate, editable two-dimensional layouts. A photo cannot reliably establish room dimensions, light output, or every obstruction. Check the result in the actual space and adjust it for your camera and subject. Lux is not a calibrated light meter or a three-dimensional room scanner.
+
 ### Flashing modes
 
 Strobe and quick signal modes produce flashing light. Avoid these modes if you are sensitive to flashing light, and follow the warning shown in the app. Lux is a screen-lighting tool and should not be relied on as emergency signaling equipment.
@@ -44,6 +57,20 @@ Strobe and quick signal modes produce flashing light. Avoid these modes if you a
 - **Сохранить цвет:** нажмите «В избранное» в палитре или пипетке. Цвета хранятся на устройстве. При удалении приложения локальные избранные цвета и настройки могут быть удалены.
 - **Изменить язык:** откройте кнопку информации и выберите язык в меню приложения.
 
+### «Студия» в Lux 3.0
+
+Откройте **«Студию»**, чтобы использовать сохранённые сцены, формы света, киноэффекты, рисование светом, палитру по фото, селфи-зеркало, управление соседними источниками и помощника по свету.
+
+- **Сохранённые сцены:** сохраните текущие настройки света под своим названием, затем выберите сцену в «Студии», чтобы вернуть их. Сцены и настройки хранятся на устройстве. При удалении приложения они могут быть удалены.
+- **Формы и эффекты:** выберите форму света или киноэффект, настройте предпросмотр и включите свет. Движущиеся узоры для рисования светом предназначены для съёмки отдельной камерой с длинной выдержкой; сам Lux такую фотографию не снимает.
+- **Палитра по фото:** выберите или сделайте снимок, нажмите на полученный цвет и сохраните его как сцену. Изображение обрабатывается на устройстве.
+- **Селфи-зеркало:** разрешите доступ к камере, настройте светящуюся рамку и нажмите кнопку съёмки либо включите трёхсекундный отсчёт. После съёмки можно переснять, отправить или сохранить фото. Сохранение запрашивает разрешение на добавление фотографий, а не доступ ко всей медиатеке.
+- **Соседние источники света:** откройте Lux на каждом устройстве и оставьте «Студию» на экране. На устройствах для подсветки выберите роль источника света. На основном устройстве выберите роль пульта, нажмите на найденное устройство и введите его шестизначный код. Отметьте подключённые источники и отправьте настройки кнопкой после изменения желаемого света в «Студии». Настройки передаются при нажатии кнопки. Имена устройств видны при поиске ещё до сопряжения. Разрешите доступ к локальной сети, оставьте Wi-Fi и Bluetooth включёнными. Если поиск или сопряжение не удаются, отключитесь, снова откройте обе роли и используйте новый код. Переход в фон или выход из «Студии» завершает соединение.
+- **Помощник по свету:** выберите задачу и при желании добавьте снимок комнаты или портрет. Начальная схема помечена как шаблон. Перетаскивайте маркеры или раскройте настройки источника, чтобы изменить положение, температуру и яркость. Отдельный источник можно сохранить как сцену, а схему подготовить и отправить изображением.
+- **Анализ фотографии:** необязательная локальная модель Qwen требует однократной загрузки около 1,75 ГБ, поддерживаемого устройства с оперативной памятью от 8 ГБ и достаточного объёма свободной памяти для анализа. Откройте «Локальную модель» в помощнике, чтобы загрузить или удалить её. Во время загрузки и анализа держите приложение открытым. После прерывания запустите загрузку снова: уже проверенные файлы могут использоваться повторно. Если анализ не запускается, закройте другие приложения, требующие много памяти, и повторите попытку либо используйте редактируемые шаблоны. Анализ выполняется локально; фотографии не загружаются на сервер модели.
+- **Как понимать схему:** подсказки — это приблизительные редактируемые двумерные схемы. По одной фотографии нельзя надёжно определить размеры комнаты, мощность света и все препятствия. Проверяйте результат в помещении и корректируйте его под камеру и человека. Lux не заменяет калиброванный люксметр и не выполняет трёхмерное сканирование комнаты.
+
 ### Режимы мигания
 
 Стробоскоп и быстрые сигналы создают мигающий свет. Не используйте их при чувствительности к миганию и соблюдайте предупреждение в приложении. Lux служит для экранной подсветки; не полагайтесь на него как на оборудование аварийной сигнализации.
+
