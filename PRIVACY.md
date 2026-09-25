@@ -8,7 +8,7 @@ This policy covers **Lux — Light & Color Tool** for iPhone and iPad, developed
 
 ### Data in the app
 
-Lux works on your device without an account. The app does not send personal data, camera images, videos, audio, measurements, or saved colors to the developer. It contains no advertising, analytics, tracking, or third-party analytics SDKs. Most features work offline. Optional model downloads and nearby light control use the network as described below.
+Lux works on your device without an account. The app does not send personal data, camera images, videos, audio, measurements, or saved colors to the developer. It contains no advertising, analytics, tracking, or third-party analytics SDKs. The app works offline. Only nearby light control uses the local network, as described below.
 
 Lux saves your favorite colors, selected settings, saved lighting scenes, language preference, and whether introductory hints have been shown in local app storage. The developer has no remote access to this data. It remains on your device until you remove it, including by deleting the app through iOS. Device backups are controlled by your system settings.
 
@@ -22,11 +22,9 @@ Selected and captured images are held for the current tool session. A recorded v
 
 You can also choose to share a photo, video or lighting-plan image using the system share sheet. The destination app or service handles what you share under its own terms and privacy practices.
 
-### Optional local model download
+### On-device lighting model
 
-The lighting coach reads the light from your photo on the device without any download. On supported devices it also offers an optional Qwen model download of approximately 1.75 GB, which refines the plan (for example, whether the light comes from a window or a lamp). Downloading requires an internet connection and is started by you. Model files are retrieved from Hugging Face and its delivery providers over HTTPS. Those providers receive the usual download connection information, such as your IP address and requested file URLs. Lux does not send your selected photos, lighting plans, or analysis prompts to them. See [Hugging Face's Privacy Policy](https://huggingface.co/privacy).
-
-After the download, photo analysis runs on the device. The model files are stored locally, excluded from device backups, and can be deleted in the lighting coach's On-device assistant settings. The coach's photo reading and editable plans remain available without downloading a model.
+The lighting coach reads the light from your photo on the device. On supported devices (at least 8 GB of memory) it can also refine the plan with the Qwen3.5-2B model (Apache 2.0 licence), which is built into the app. The model runs entirely on your device, needs no internet connection and no download, and nothing about your photo or the analysis is sent anywhere. The coach's photo reading and editable plans work on every device. Lux 3.0.0 offered this model as an optional download from Hugging Face over HTTPS, started by you; from Lux 3.0.1 it is built into the app and no model download takes place.
 
 ### Nearby light control
 
@@ -56,7 +54,7 @@ Changes to this policy will be published on this page with an updated date.
 
 ### Данные в приложении
 
-Lux работает на устройстве без учётной записи. Приложение не отправляет разработчику персональные данные, изображения с камеры, видео, звук, измерения или сохранённые цвета. В нём нет рекламы, аналитики, отслеживания и сторонних SDK аналитики. Большинство функций работает без интернета. Необязательная загрузка модели и управление соседними источниками света используют сеть, как описано ниже.
+Lux работает на устройстве без учётной записи. Приложение не отправляет разработчику персональные данные, изображения с камеры, видео, звук, измерения или сохранённые цвета. В нём нет рекламы, аналитики, отслеживания и сторонних SDK аналитики. Приложение работает без интернета. Сеть — локальная — использует только управление соседними источниками света, как описано ниже.
 
 Lux сохраняет избранные цвета, выбранные настройки, сохранённые сцены освещения, язык и информацию о показе начальных подсказок в локальном хранилище приложения. Разработчик не имеет удалённого доступа к этим данным. Они остаются на устройстве до удаления, в том числе при удалении приложения средствами iOS. Резервное копирование устройства определяется системными настройками.
 
@@ -70,11 +68,9 @@ Lux сохраняет избранные цвета, выбранные нас�
 
 Вы также можете отправить фотографию, видео или изображение схемы через системное меню отправки. Выбранное приложение или сервис обрабатывает их по собственным условиям и правилам конфиденциальности.
 
-### Необязательная загрузка локальной модели
+### Встроенная модель для анализа света
 
-Помощник по свету определяет свет по фотографии на устройстве без каких-либо загрузок. На поддерживаемых устройствах он также предлагает необязательную загрузку модели Qwen размером около 1,75 ГБ, которая уточняет схему (например, окно это или лампа). Для загрузки нужен интернет; её запускаете вы. Файлы модели загружаются с Hugging Face и через его поставщиков доставки по HTTPS. Эти поставщики получают обычные сведения о соединении, например IP-адрес и адреса запрашиваемых файлов. Lux не отправляет им выбранные фотографии, схемы освещения или запросы для анализа. См. [политику конфиденциальности Hugging Face](https://huggingface.co/privacy).
-
-После загрузки анализ фотографии выполняется на устройстве. Файлы модели хранятся локально, исключены из резервных копий устройства и могут быть удалены в настройках «Локальный помощник» помощника по свету. Определение света по фото и редактируемые схемы доступны без загрузки модели.
+Помощник по свету определяет свет по фотографии на устройстве. На поддерживаемых устройствах (с памятью от 8 ГБ) он может также уточнить схему с помощью модели Qwen3.5-2B (лицензия Apache 2.0), встроенной в приложение. Модель работает только на вашем устройстве, не требует интернета и загрузки, и никакие сведения о фотографии или анализе никуда не передаются. Определение света по фото и редактируемые схемы работают на любом устройстве. В Lux 3.0.0 эту модель можно было по желанию загрузить с Hugging Face по HTTPS; начиная с Lux 3.0.1 она встроена в приложение и ничего не загружается.
 
 ### Управление соседними источниками света
 
