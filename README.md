@@ -1,10 +1,10 @@
+<h1 align="center">Lux — Light &amp; Color Tool</h1>
+
+<p align="center"><strong>Light, color, and a little studio in your pocket.</strong></p>
+
 <p align="center">
-  <img src=".github/assets/banner.svg" width="100%" alt="Lux — Light &amp; Color Tool" />
+  <img src=".github/assets/stack.svg" height="28" alt="iOS · iPadOS · Support" />
 </p>
-
-# Lux — Light & Color Tool
-
-**Light, color, and a little studio in your pocket.**
 
 Public support and privacy information for **Lux on iPhone and iPad**, by Artem Leonov.
 
