@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="28" viewBox="0 0 184 28" role="img" aria-labelledby="asset-title asset-description">
+  <title id="asset-title">iOS · iPadOS · Support</title>
+  <desc id="asset-description">Technologies and project scope; no status claims.</desc>
+  <rect x="0.5" y="0.5" width="40" height="27" rx="7" fill="#F6F5FA" stroke="#E2D5DF" stroke-width="1" />
+  <text x="10" y="18.1" fill="#3D354A" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="500">iOS</text>
+  <rect x="47.5" y="0.5" width="61" height="27" rx="7" fill="#F6F5FA" stroke="#DED7E8" stroke-width="1" />
+  <text x="57" y="18.1" fill="#3D354A" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="500">iPadOS</text>
+  <rect x="115.5" y="0.5" width="68" height="27" rx="7" fill="#F6F5FA" stroke="#E2D5DF" stroke-width="1" />
+  <text x="125" y="18.1" fill="#3D354A" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="500">Support</text>
+</svg>

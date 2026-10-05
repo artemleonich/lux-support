@@ -3,7 +3,7 @@
 <p align="center"><strong>Light, color, and a little studio in your pocket.</strong></p>
 
 <p align="center">
-  <img src=".github/assets/stack.svg" height="28" alt="iOS · iPadOS · Support" />
+  <a href=".github/assets/light/stack.svg#gh-light-mode-only"><img src=".github/assets/light/stack.svg" height="28" alt="iOS · iPadOS · Support" /></a><a href=".github/assets/stack.svg#gh-dark-mode-only"><img src=".github/assets/stack.svg" height="28" alt="iOS · iPadOS · Support" /></a>
 </p>
 
 Public support and privacy information for **Lux on iPhone and iPad**, by Artem Leonov.
